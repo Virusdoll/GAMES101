@@ -8,7 +8,7 @@ Assignments:
 - [x] Assignment 2
 - [x] Assignment 3
 - [x] Assignment 4
-- [ ] Assignment 5
+- [x] Assignment 5
 - [ ] Assignment 6
 - [ ] Assignment 7
 - [ ] Assignment 8
