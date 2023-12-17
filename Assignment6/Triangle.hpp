@@ -232,9 +232,17 @@ inline Intersection Triangle::getIntersection(Ray ray)
     t_tmp = dotProduct(e2, qvec) * det_inv;
 
     // TODO find ray triangle intersection
+    if (t_tmp <= 0)
+    {
+        return inter;
+    }
 
-
-
+    inter.normal = normal;
+    inter.happened = true;
+    inter.m = m;
+    inter.distance = t_tmp;
+    inter.obj = this;
+    inter.coords = ray(t_tmp);
 
     return inter;
 }
