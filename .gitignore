@@ -36,3 +36,4 @@
 .vscode
 
 !Assignment3/models/*/*.obj
+!Assignment6/models/*/*.obj
